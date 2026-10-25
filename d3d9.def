@@ -1,0 +1,19 @@
+LIBRARY d3d9
+EXPORTS
+    Direct3DCreate9=Direct3DCreate9_thunk
+    Direct3DCreate9Ex=Direct3DCreate9Ex_thunk
+    Direct3DCreate9On12=Direct3DCreate9On12_thunk
+    Direct3DCreate9On12Ex=Direct3DCreate9On12Ex_thunk
+    Direct3DShaderValidatorCreate9=Direct3DShaderValidatorCreate9_thunk
+    D3DPERF_BeginEvent=D3DPERF_BeginEvent_thunk
+    D3DPERF_EndEvent=D3DPERF_EndEvent_thunk
+    D3DPERF_GetStatus=D3DPERF_GetStatus_thunk
+    D3DPERF_QueryRepeatFrame=D3DPERF_QueryRepeatFrame_thunk
+    D3DPERF_SetMarker=D3DPERF_SetMarker_thunk
+    D3DPERF_SetOptions=D3DPERF_SetOptions_thunk
+    D3DPERF_SetRegion=D3DPERF_SetRegion_thunk
+    DebugSetLevel=DebugSetLevel_thunk
+    DebugSetMute=DebugSetMute_thunk
+    Direct3D9EnableMaximizedWindowedModeShim=Direct3D9EnableMaximizedWindowedModeShim_thunk
+    PSGPError=PSGPError_thunk
+    PSGPSampleTexture=PSGPSampleTexture_thunk
